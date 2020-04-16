@@ -1,8 +1,10 @@
-2nd week
-
-
-
-
+1st week-started off with html and basic styling
+parallely started working on a webpage 
+2nd week-i concentrated more on responsive web-D
+completed with the 1st webpage named salute
+then i modified it to new way completely using css which i named it as pro1 modified
+3rd week:i learnt js
+and started making a quiz using it 
 
 
 # CODE-DOWN-2020-Challenge
