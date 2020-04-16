@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myfirstquiz</title>
+	<link rel="stylesheet" type="text/css" href="quiz2.css">
+	<script type="text/javascript" src="quiz2.js"></script>
+
+</head>
+<body>
+	<h1>Come on,just take it!!</h1>
+	<form id="quiz" name="quiz">
+		<p>1.there are 5 sisters in the room.Ann is reading a book.margret is cooking,kate is playing chess,mary is doing laundry.what is the fifth sister doing??</p>
+		<input type="radio" name="question1" id="mc" value="reading book">reading book<br>
+		<input type="radio" name="question1" id="mc" value="doing laundry">doing laundry<br>
+		<input type="radio" name="question1" id="mc" value="playing chess">playing chess<br>
+		<input type="radio" name="question1" id="mc" value="watching TV">watching TV<br>
+	    <p>2:what can travel the world while staying in corner??</p>
+		<input type="text" name="question2" class="textbox"><br>
+		<p>3:A rabbit saw 6 elephants while going to the river.Every elephant saw two monkeys going towards the river.Every monkey holds one parrot in ther hands.How many animals are going towards river??</p>
+		<input type="radio" name="question3" value="11" id="mc">11<br>
+		<input type="radio" name="question3" value="31" id="mc">31<br>
+		<input type="radio" name="question3" value="5" id="mc">5<br>
+		<input type="radio" name="question3" value="25" id="mc">25<br>
+		<p>4:how many states are there in india in 1947 after partition?</p>
+		<input type="radio" name="question4" id="mc" value="30">30<br>
+		<input type="radio" name="question4" id="mc" value="29">29<br>
+		<input type="radio" name="question4" id="mc" value="552">552<br>
+		<input type="radio" name="question4" id="mc" value="584">584<br>
+		<p>5:who is the lecturer that most people of your college hate??</p>
+		<input type="text" name="question5" class="textbox"><br><br>
+        <input id="submit" type="button" value="i am finished" onclick="check();">
+	</form>
+	
+	<div id="after_submit">
+	<p id="feedback"></p>
+	<p id='got_correct'></p>
+	<img id="image">
+    </div>  
+</body>
+</html>

@@ -1,0 +1,48 @@
+body{
+
+	font-size:2vw;
+	background-color: #21243d;
+	color:white;
+}
+
+.textbox
+{
+	border-radius:5px;
+	height:20px;
+	font-size:16px;
+
+}
+input
+{
+    margin-bottom:20px;
+}
+#submit
+{
+	height:35px;
+	background-color:white;
+	font-size:20px;
+	transition-duration:.5s;
+}
+#submit:hover
+{
+	background-color:orange;
+	cursor:pointer;
+	border:1px solid black;
+	color:black;
+
+}
+#after_submit
+{
+	background-color: #21243d;
+	float:left;
+	border-radius:20px;
+	padding: 10px,10px,10px,20px;
+	width:40%;
+}
+@media screen and (max-width:18cm)
+{
+	body
+	{
+		font-size:3.3vw;
+	}
+}
